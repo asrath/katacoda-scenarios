@@ -2,10 +2,11 @@
 
 A container is a running image instance. In docker each container usually runs a single process.
 
-For this step we have a running **busybox** container executing ping in background.
+In order to list containers we will use `docker ps`{{execute HOST1}} for active containers.
+This command will be executed in another terminal to show the currently running container.
 
-In order to list containers we will use `docker ps`{{execute}} for active containers.
-Or `docker ps -a`{{execute}} to show all containers.
+Then execute `docker ps -a`{{execute interrupt}} to show all containers. If you want to stop a running
+container in foregorund use `Ctrl+C`.
 
 ## Images
 
