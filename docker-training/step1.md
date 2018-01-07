@@ -11,4 +11,4 @@ We will run a ping command using a [busybox](https://en.wikipedia.org/wiki/BusyB
 
 `docker run busybox ping 127.0.0.1`{{execute}}
 
-To stop the process press `Ctrl+C` `^C`{{execute}}
+To stop the process press `Ctrl+C` ``{{execute interrupt}}
