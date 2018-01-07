@@ -2,7 +2,7 @@
   "title": "Docker training",
   "description": "Basic docker training",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
@@ -11,8 +11,15 @@
       },
       {
         "title": "Step 2 - List containers and images",
-        "text": "step2.md",
-        "code": "step2-code.sh"
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Opening a shell against containers",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Stopping and removing containers",
+        "text": "step4.md"
       }
     ],
     "intro": {
