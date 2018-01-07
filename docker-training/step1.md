@@ -10,3 +10,7 @@ The docker run syntax is `docker run [options] <image> [command]`
 We will run a ping command using a [busybox](https://en.wikipedia.org/wiki/BusyBox) image.
 
 `docker run busybox ping 127.0.0.1`{{execute}}
+
+To stop the process press `Ctrl+C`
+
+We
