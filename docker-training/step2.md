@@ -7,8 +7,8 @@ In docker each container usually runs a single process.
 In order to list all containers `docker ps -a`{{execute interrupt}} to show all containers.
 If you want to stop a running container in foreground use `Ctrl+C`.
 
-Execute `docker run -d --name background_ping busybox ping 127.0.0.1`{{execute}}. Note that we added the `-d` option to
-run the container in background and `--name` to set the container name (by default is random).
+Execute `docker run -d --name background_ping busybox ping 127.0.0.1`{{execute}} in order to run a name container in background.
+Note that we added the `-d` option to run the container in background and `--name` to set the container name (by default is random).
 
 In order to list running containers we will use `docker ps`{{execute}}.
 
