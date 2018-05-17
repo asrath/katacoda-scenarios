@@ -1,3 +1,3 @@
 # Docker training
 
-Basic training.
+Basic training
